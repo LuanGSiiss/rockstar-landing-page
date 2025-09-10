@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rockstar Games</title>
+    <meta name="author" content="Luan Gerber Siiss">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!--Link para fontes usadas no site-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+    <aside class="menu white-bg">
+        <div class="menu-content main-content">
+            <h1 onclick="getElementById('close-menu').checked = false;"><a href="#home">ROCKSTAR GAMES</a></h1>
+            
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#top3">Mais famosos</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="main-bg secao">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>ROCKSTAR GAMES</h2>
+                <p>Rockstar Games, Inc. é uma produtora e publicadora de jogos eletrônicos fundada em Dezembro de 1998. Conhecida por ter publicado grandes nomes dos jogos eletrônicos, a Rockstar é publicadora das famosas séries Grand Theft Auto, Red Dead, Midnight Club, Bully, Max Payne e Manhunt.</p>
+            </div>
+            <div class="intro-image">
+                <img alt="Imagem do GTA 6" src="assets/midias/logo-rockstar.png">
+            </div>
+        </div>
+    </section>
+
+    <section id="top3" class="white-bg secao">
+        <div class="main-content top3-content">
+            <h2>TOP 3 JOGOS</h2>
+            <div>
+                <h3>GRAND THEFT AUTO V (GTA 5)</h3>
+                <p>Lançado em 2013, o GTA V é um fenômeno de vendas e popularidade. Com um mundo aberto imenso e detalhado, ele se destaca pela sua história envolvente com três protagonistas, humor ácido e a liberdade quase infinita que oferece. O sucesso do modo online, o GTA Online, fez com que o jogo se mantivesse relevante por mais de uma década.</p>
+            </div>
+            <div>
+                <h3>RED DEAD REDEMPTION 2</h3>
+                <p>Considerado por muitos uma obra-prima, este jogo de 2018 é uma experiência imersiva no Velho Oeste. Sua narrativa profunda e emocionante, combinada com um nível de detalhe e realismo gráfico sem precedentes, faz com que os jogadores se sintam realmente parte do mundo de Arthur Morgan. É um dos jogos mais aclamados de todos os tempos.</p>
+            </div>
+            <div>
+                <h3>GRAND THEFT AUTO: SAN ANDREAS</h3>
+                <p>Embora mais antigo (2004), o San Andreas ainda é um dos jogos mais queridos da Rockstar. Ele foi revolucionário na época por ser muito à frente de seu tempo, oferecendo uma variedade de atividades, personalização de personagens e uma história vasta que se passava em três grandes cidades. A escala e a ambição do jogo moldaram a fórmula de mundo aberto que a Rockstar aperfeiçou nos títulos seguintes.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section  id="galeria" class="grid-one white-bg secao">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Galeria</h2>
+            <p class="grid-description">Imagens dos jogos</p>
+            <div class="grid">
+                <div class="galeria-imagem">
+                    <img alt="Imagem aleatoria de um jogo da Rockstar" src="assets/midias/gta5.jpg">
+                </div>
+                <div class="galeria-imagem">
+                    <img alt="Imagem aleatoria de um jogo da Rockstar" src="assets/midias/bully1.jpg">
+                </div>
+                <div class="galeria-imagem">
+                    <img alt="Imagem aleatoria de um jogo da Rockstar" src="assets/midias/gtaSanAndreas.jpg">
+                </div>
+                <div class="galeria-imagem">
+                    <img alt="Imagem aleatoria de um jogo da Rockstar" src="assets/midias/redDeadRedemption2.jpg">
+                </div>
+                <div class="galeria-imagem">
+                    <img alt="Imagem aleatoria de um jogo da Rockstar" src="assets/midias/redDeadRedemption1.jpg">
+                </div>
+                <div class="galeria-imagem">
+                    <img alt="Imagem aleatoria de um jogo da Rockstar" src="assets/midias/maxPayne3.jpg">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+    <footer id="footer" class=" footer white-bg">
+        <p><a rel="nofollow" target="_blank" href="https://github.com/LuanGSiiss">Feito com <span class="heart">❤</span> por Luan Gerber Siiss</a></p>
+    </footer>
+
+    <a class="back-to-top" href="#home">➤</a>
+
+</body>
+</html>
