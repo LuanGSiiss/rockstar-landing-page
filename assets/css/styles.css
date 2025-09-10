@@ -171,6 +171,7 @@ p {
 .footer {
     text-align: center;
     font-size: 1.6rem;
+    border: 2px solid rgba(1, 14, 51, 0.2) ;
 }
 
 .heart {
